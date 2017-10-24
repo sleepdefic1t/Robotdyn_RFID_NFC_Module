@@ -2,8 +2,7 @@
 #include <RFID.h>
 #include <SPI.h>
 
-//RFID rfid(10, 5);    // D10--SDA, D5--RST
-RFID rfid(4, 16);    // Adafruit Feather Huzzah 8266 [SDA--SDA, RST--RST(Board1--#16)]
+RFID rfid(10, 5);    // D10--SDA, D5--RST
 
 unsigned char serNum[5];
  
